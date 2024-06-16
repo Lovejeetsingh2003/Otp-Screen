@@ -35,10 +35,9 @@ class _OtpScreenState extends State<OtpScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                margin: const EdgeInsets.all(10),
                 padding: const EdgeInsets.all(20),
                 child: SizedBox(
                   height: 120,
@@ -77,7 +76,6 @@ class _OtpScreenState extends State<OtpScreen> {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.all(10),
                 padding: const EdgeInsets.all(20),
                 child: SizedBox(
                   height: 120,
@@ -116,7 +114,6 @@ class _OtpScreenState extends State<OtpScreen> {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.all(10),
                 padding: const EdgeInsets.all(20),
                 child: SizedBox(
                   height: 120,
@@ -155,7 +152,6 @@ class _OtpScreenState extends State<OtpScreen> {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.all(10),
                 padding: const EdgeInsets.all(20),
                 child: SizedBox(
                   height: 120,
