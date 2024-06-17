@@ -35,7 +35,7 @@ class _OtpScreenState extends State<OtpScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
                 padding: const EdgeInsets.all(20),
